@@ -11,12 +11,12 @@ npm install @react-navigation/native
 npm install react-native-reanimated react-native-gesture-handler react-native-screens react-native-safe-area-context @react-native-community/masked-view
 ```
 
-Add this in index.js(If you skip this step, your app may crash in production even if it works fine in development)
+##### Add this in index.js(If you skip this step, your app may crash in production even if it works fine in development)
 ```
 import 'react-native-gesture-handler';
 ```
 
-Installing the stack navigator library:
+##### Installing the stack navigator library:
 ```
 npm install @react-navigation/stack
 ```
@@ -48,19 +48,19 @@ npm i @react-native-community/async-storage
 npm i reanimated-bottom-sheet
 ```
 
-#####Installing react-native-image-crop-picker:
+##### Installing react-native-image-crop-picker:
 `
 https://github.com/ivpusic/react-native-image-crop-picker
 `
 
 `npm i react-native-image-crop-picker`
 
-######You need to enter these lines to 'build.gridle' file in Android folder:
+###### You need to enter these lines to 'build.gridle' file in Android folder:
 ```
 maven { url 'https://maven.google.com' }
 ```
 
-######There is a folder call 'app' inside android folder, open the build.gradle: Inside that find the object android, inside it there is another object called defaultConfig, paste this inside it:
+###### There is a folder call 'app' inside android folder, open the build.gradle: Inside that find the object android, inside it there is another object called defaultConfig, paste this inside it:
 ```
 vectorDrawables.useSupportLibrary = true
 ```
@@ -76,7 +76,7 @@ vectorDrawables.useSupportLibrary = true
 npm install --save react-native-swipe-list-view
 ```
 
-#####App Login deatils:
+##### App Login deatils:
 ```
 username: 'user',
 password: 'password',
